@@ -1,1 +1,19 @@
-@import url('./theme/lara/lara-light/my/theme.scss');
+// @import url('./theme/lara/lara-light/my/theme.scss');
+$primaryColor: #6366F1 !default;
+$primaryLightColor: #C7D2FE !default;
+$primaryDarkColor: #4F46E5 !default;
+$primaryDarkerColor: #4338CA !default;
+$primaryTextColor: #ffffff !default;
+
+$highlightBg: #EEF2FF !default;
+$highlightTextColor: $primaryDarkerColor !default;
+$highlightFocusBg: #E0E7FF !default;
+
+// @import '../_variables';
+// @import './_fonts';
+// @import '../../../../theme-base/_components';
+// @import '../_extensions';
+@import './theme/lara/lara-light/variables';
+@import './theme/lara/lara-light/my/fonts';
+@import './theme-base/components';
+@import './theme/lara/lara-light/extensions';
