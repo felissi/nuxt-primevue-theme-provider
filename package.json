@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "nuxt": "^3.8.0",
+    "nuxt-primevue": "^0.1.0",
+    "typescript": "^5.2.2"
+  },
+  "keywords": [
+    "vuejs",
+    "nuxt",
+    "nuxtjs"
+  ],
+  "name": "nuxt3-minimal-starter",
+  "description": "Nuxt3 Minimal Starter Web App currently generated using nuxt 3.0.0-rc.3",
+  "dependencies": {
+    "primevue": "^3.39.0"
+  }
+}
