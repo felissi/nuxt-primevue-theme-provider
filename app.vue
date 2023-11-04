@@ -67,8 +67,17 @@
 // import "./mytheme.css";
 import "./theme/mytheme.scss";
 import { ref } from "vue";
-
 import Calendar from "primevue/calendar";
+useHead({
+  style:[
+    {
+      innerHTML: `:root {
+        --test-color: #123123;
+        --test-radius: 12px;
+      }`
+    }
+  ]
+})
 
 const date = ref();
 

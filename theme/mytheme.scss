@@ -1,5 +1,5 @@
 // @import url('./theme/lara/lara-light/my/theme.scss');
-$primaryColor: #6366F1 !default;
+$primaryColor: var(--test-color) !default;
 $primaryLightColor: #C7D2FE !default;
 $primaryDarkColor: #4F46E5 !default;
 $primaryDarkerColor: #4338CA !default;
@@ -9,6 +9,8 @@ $highlightBg: #EEF2FF !default;
 $highlightTextColor: $primaryDarkerColor !default;
 $highlightFocusBg: #E0E7FF !default;
 
+$borderRadius: var(--test-radius);
+
 // @import '../_variables';
 // @import './_fonts';
 // @import '../../../../theme-base/_components';
@@ -16,4 +18,9 @@ $highlightFocusBg: #E0E7FF !default;
 @import './theme/lara/lara-light/variables';
 @import './theme/lara/lara-light/my/fonts';
 @import './theme-base/components';
-@import './theme/lara/lara-light/extensions';
+// @import './theme/lara/lara-light/extensions';
+:root {
+    // --test-color: '#FFFFFF';
+    // background-color: $primaryColor;
+    // color: $primaryLightColor;
+}
