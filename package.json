@@ -9,6 +9,7 @@
   "devDependencies": {
     "nuxt": "^3.8.0",
     "nuxt-primevue": "^0.1.0",
+    "sass": "^1.69.5",
     "typescript": "^5.2.2"
   },
   "keywords": [

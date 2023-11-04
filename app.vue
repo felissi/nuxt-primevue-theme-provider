@@ -63,7 +63,9 @@
 </template>
 
 <script setup>
-import "primevue/resources/themes/lara-light-indigo/theme.css";
+// import "primevue/resources/themes/lara-light-indigo/theme.css";
+// import "./mytheme.css";
+import "./theme/mytheme.scss";
 import { ref } from "vue";
 
 import Calendar from "primevue/calendar";
