@@ -7,10 +7,10 @@ export default defineNuxtConfig({
   // css: ["primevue/resources/themes/lara-dark-teal/theme.css"],
   primevue: {
     options: {
-      ripple: false,
+      ripple: true,
     },
     components: {
-      include: ["InputText", "Button","Checkbox","Dropdown","Calendar","InputSwitch","Message"],
+      include: ["InputText", "Button","Checkbox","Dropdown","Calendar","InputSwitch","Message","Sidebar"],
       // exclude: ["editor", "chart"],
     },
   },

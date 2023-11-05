@@ -1,5 +1,5 @@
 // @import url('./theme/lara/lara-light/my/theme.scss');
-$primaryColor: var(--test-color) !default;
+$primaryColor: var(--sui-color-primary-default) !default;
 $primaryLightColor: #c7d2fe !default;
 $primaryDarkColor: #4f46e5 !default;
 $primaryDarkerColor: #4338ca !default;
@@ -9,10 +9,10 @@ $highlightBg: #eef2ff !default;
 $highlightTextColor: $primaryDarkerColor !default;
 $highlightFocusBg: #e0e7ff !default;
 
-$borderRadius: var(--test-radius) !default;
-$checkboxRadius: var(--test-checkbox-radius) !default;
-$buttonBg: #123123 !default;
-$buttonRingColor: var(--sui-color-ring-primary) !default;
+$borderRadius: var(--sui-radius-default) !default;
+$checkboxRadius: var(--sui-radius-checkbox) !default;
+$buttonBg: var(--sui-color-primary-default) !default;
+$buttonRingColor: var(--sui-color-primary-ring) !default;
 
 // @import '../_variables';
 // @import './_fonts';
@@ -22,8 +22,3 @@ $buttonRingColor: var(--sui-color-ring-primary) !default;
 @import "./theme/lara/lara-light/my/fonts";
 @import "./theme-base/components";
 @import "./theme/lara/lara-light/extensions";
-:root {
-    // --test-color: '#FFFFFF';
-    // background-color: $primaryColor;
-    // color: $primaryLightColor;
-}
