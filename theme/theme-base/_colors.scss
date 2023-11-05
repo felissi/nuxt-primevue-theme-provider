@@ -1,18 +1,28 @@
 :root {
-    @if variable-exists(colors) {
-        @each $name, $color in $colors {
-            @for $i from 0 through 5 {
-                @if ($i == 0) {
-                    --#{$name}-50:#{tint($color, (5 - $i) * 19%)};
-                }
-                @else {
-                    --#{$name}-#{$i * 100}:#{tint($color, (5 - $i) * 19%)};
-                }
-            }
+    // @if variable-exists(colors) {
+    //     @each $name, $color in $colors {
+    //         @for $i from 0 through 5 {
+    //             @if ($i == 0) {
+    //                 --#{$name}-50:#{tint($color, (5 - $i) * 19%)};
+    //             }
+    //             @else {
+    //                 --#{$name}-#{$i * 100}:#{tint($color, (5 - $i) * 19%)};
+    //             }
+    //         }
             
-            @for $i from 1 through 4 {
-                --#{$name}-#{($i + 5) * 100}:#{shade($color, $i * 15%)};
-            }
-        }
-    }
+    //         @for $i from 1 through 4 {
+    //             --#{$name}-#{($i + 5) * 100}:#{shade($color, $i * 15%)};
+    //         }
+    //     }
+    // }
+    --primary-50: #f4f3f5;
+    --primary-100: #cac6ce;
+    --primary-200: #a099a7;
+    --primary-300: #756c80;
+    --primary-400: #4b3f59;
+    --primary-500: #211232;
+    --primary-600: #1c0f2b;
+    --primary-700: #170d23;
+    --primary-800: #120a1c;
+    --primary-900: #0d0714;
 }

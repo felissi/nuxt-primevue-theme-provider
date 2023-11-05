@@ -125,6 +125,7 @@ $buttonPadding:.75rem 1.25rem !default;
 $buttonIconOnlyWidth:3rem !default;
 $buttonIconOnlyPadding:.75rem 0 !default;
 $buttonBg:$primaryColor !default;
+$buttonRingColor: scale-color($buttonBg, $lightness: 50%) !default;
 $buttonTextColor:$primaryTextColor !default;
 $buttonBorder:1px solid $primaryColor !default;
 $buttonHoverBg:$primaryDarkColor !default;
@@ -144,6 +145,7 @@ $plainButtonHoverBgColor:$shade200 !default;
 $plainButtonActiveBgColor:$shade300 !default;
 
 $secondaryButtonBg:#64748B !default;
+$secondaryButtonRingColor: scale-color($secondaryButtonBg, $lightness: 50%) !default;
 $secondaryButtonTextColor:#ffffff !default;
 $secondaryButtonBorder:1px solid $secondaryButtonBg !default;
 $secondaryButtonHoverBg:#475569 !default;
@@ -155,6 +157,7 @@ $secondaryButtonActiveBorderColor:#334155 !default;
 $secondaryButtonFocusShadow:0 0 0 0.2rem #E2E8F0 !default;
 
 $infoButtonBg:#3B82F6 !default;
+$infoButtonRingColor: scale-color($infoButtonBg, $lightness: 50%) !default;
 $infoButtonTextColor:#ffffff !default;
 $infoButtonBorder:1px solid $infoButtonBg !default;
 $infoButtonHoverBg:#2563EB !default;
@@ -166,6 +169,7 @@ $infoButtonActiveBorderColor:#1D4ED8 !default;
 $infoButtonFocusShadow:0 0 0 0.2rem #BFDBFE !default;
 
 $successButtonBg:#22C55E !default;
+$successButtonRingColor: scale-color($successButtonBg, $lightness: 50%) !default;
 $successButtonTextColor:#ffffff !default;
 $successButtonBorder:1px solid $successButtonBg !default;
 $successButtonHoverBg:#16A34A !default;
@@ -177,6 +181,7 @@ $successButtonActiveBorderColor:#15803D !default;
 $successButtonFocusShadow:0 0 0 0.2rem #BBF7D0 !default;
 
 $warningButtonBg:#F59E0B !default;
+$warningButtonRingColor: scale-color($warningButtonBg, $lightness: 50%) !default;
 $warningButtonTextColor:#ffffff !default;
 $warningButtonBorder:1px solid $warningButtonBg !default;
 $warningButtonHoverBg:#D97706 !default;
@@ -188,6 +193,7 @@ $warningButtonActiveBorderColor:#B45309 !default;
 $warningButtonFocusShadow:0 0 0 0.2rem #FDE68A !default;
 
 $helpButtonBg:#A855F7 !default;
+$helpButtonRingColor: scale-color($helpButtonBg, $lightness: 50%) !default;
 $helpButtonTextColor:#ffffff !default;
 $helpButtonBorder:1px solid $helpButtonBg !default;
 $helpButtonHoverBg:#9333EA !default;
@@ -199,6 +205,7 @@ $helpButtonActiveBorderColor:#7E22CE !default;
 $helpButtonFocusShadow:0 0 0 0.2rem #E9D5FF !default;
 
 $dangerButtonBg:#EF4444 !default;
+$dangerButtonRingColor: scale-color($dangerButtonBg, $lightness: 50%) !default;
 $dangerButtonTextColor:#ffffff !default;
 $dangerButtonBorder:1px solid $dangerButtonBg !default;
 $dangerButtonHoverBg:#DC2626 !default;
@@ -210,6 +217,8 @@ $dangerButtonActiveBorderColor:#B91C1C !default;
 $dangerButtonFocusShadow:0 0 0 0.2rem #FECACA !default;
 
 $linkButtonColor:$primaryDarkerColor !default;
+$linkButtonBg: $linkButtonColor !default;
+$linkButtonRingColor: scale-color($linkButtonBg, $lightness: 50%) !default;
 $linkButtonHoverColor:$primaryDarkerColor !default;
 $linkButtonTextHoverDecoration:underline !default;
 $linkButtonFocusShadow:0 0 0 0.2rem $focusOutlineColor !default;
@@ -225,6 +234,7 @@ $checkboxIconActiveColor:$primaryTextColor !default;
 $checkboxActiveHoverBg:$primaryDarkerColor !default;
 $checkboxIconActiveHoverColor:$primaryTextColor !default;
 $checkboxActiveHoverBorderColor:$primaryDarkerColor !default;
+$checkboxRadius: 6px !default;
 
 //radiobutton
 $radiobuttonWidth:22px !default;

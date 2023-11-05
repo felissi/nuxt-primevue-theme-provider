@@ -1,24 +1,27 @@
 // @import url('./theme/lara/lara-light/my/theme.scss');
 $primaryColor: var(--test-color) !default;
-$primaryLightColor: #C7D2FE !default;
-$primaryDarkColor: #4F46E5 !default;
-$primaryDarkerColor: #4338CA !default;
+$primaryLightColor: #c7d2fe !default;
+$primaryDarkColor: #4f46e5 !default;
+$primaryDarkerColor: #4338ca !default;
 $primaryTextColor: #ffffff !default;
 
-$highlightBg: #EEF2FF !default;
+$highlightBg: #eef2ff !default;
 $highlightTextColor: $primaryDarkerColor !default;
-$highlightFocusBg: #E0E7FF !default;
+$highlightFocusBg: #e0e7ff !default;
 
-$borderRadius: var(--test-radius);
+$borderRadius: var(--test-radius) !default;
+$checkboxRadius: var(--test-checkbox-radius) !default;
+$buttonBg: #123123 !default;
+$buttonRingColor: var(--sui-color-ring-primary) !default;
 
 // @import '../_variables';
 // @import './_fonts';
 // @import '../../../../theme-base/_components';
 // @import '../_extensions';
-@import './theme/lara/lara-light/variables';
-@import './theme/lara/lara-light/my/fonts';
-@import './theme-base/components';
-// @import './theme/lara/lara-light/extensions';
+@import "./theme/lara/lara-light/variables";
+@import "./theme/lara/lara-light/my/fonts";
+@import "./theme-base/components";
+@import "./theme/lara/lara-light/extensions";
 :root {
     // --test-color: '#FFFFFF';
     // background-color: $primaryColor;
