@@ -10,7 +10,7 @@ export default defineNuxtConfig({
       ripple: false,
     },
     components: {
-      include: ["InputText", "Button","Checkbox","Dropdown","Calendar","InputSwitch"],
+      include: ["InputText", "Button","Checkbox","Dropdown","Calendar","InputSwitch","Message"],
       // exclude: ["editor", "chart"],
     },
   },

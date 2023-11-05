@@ -60,6 +60,10 @@
   </div>
   <InputSwitch v-model="checked" />
   <Button>qweqwe</Button>
+  <Message severity="success">Success Message</Message>
+  <Message severity="info">Info Message</Message>
+  <Message severity="warn">Warning Message</Message>
+  <Message severity="error">Error Message</Message>
 </template>
 
 <script setup>
@@ -69,15 +73,16 @@ import "./theme/mytheme.scss";
 import { ref } from "vue";
 import Calendar from "primevue/calendar";
 useHead({
-  style:[
+  style: [
     {
       innerHTML: `:root {
         --test-color: #123123;
         --test-radius: 12px;
-      }`
-    }
-  ]
-})
+        --test-checkbox-radius: 30px;
+      }`,
+    },
+  ],
+});
 
 const date = ref();
 
